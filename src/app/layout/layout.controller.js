@@ -1,5 +1,5 @@
 class LayoutCtrl {
-    constructor($rootScope) {
+    constructor() {
         'ngInject';
 
         this.translateLoaded = false;

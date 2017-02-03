@@ -1,5 +1,4 @@
 const LIBS = [
-    'jquery',
     'angular',
     'angular-ui-router',
     'lodash'

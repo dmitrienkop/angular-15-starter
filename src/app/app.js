@@ -6,7 +6,6 @@ import appConstants from './config/app.constants';
 import appRun from './config/app.run';
 
 // Libs
-import 'jquery';
 import 'angular-ui-router';
 import 'lodash';
 

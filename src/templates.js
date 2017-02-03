@@ -22,7 +22,7 @@ angular.module('templates', []).run(['$templateCache', function($templateCache) 
 
 
   $templateCache.put('./questions/question.html',
-    "<div class=\"question\"><h2>{{$ctrl.question.question}}</h2><a ui-sref=\"app.questions\" class=\"question__link\">Questions list</a><ul class=\"question__choices\"><li class=\"question__choicesItem\" ng-repeat=\"choice in $ctrl.question.choices\">{{choice.choice}}: {{choice.votes}} votes</li></ul><debugger model=\"$ctrl.questions\"></debugger></div>"
+    "<div class=\"question\"><h2>{{$ctrl.question.question}}</h2><a ui-sref=\"app.questions\" class=\"question__link\">Questions list</a><ul class=\"question__choices\"><li class=\"question__choicesItem\" ng-repeat=\"choice in $ctrl.question.choices\">{{choice.choice}}: {{choice.votes}} votes</li></ul><debugger model=\"$ctrl.question\"></debugger></div>"
   );
 
 
